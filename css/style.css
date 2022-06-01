@@ -1,0 +1,174 @@
+li a:hover:not(.active) {
+    color:  #fd0909a8;
+}
+
+li a.active {
+    color: #cf0000;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    float: left;
+    overflow: hidden;
+    margin: 0; 
+    padding: 0;
+    /*border: 1px solid #e7e7e7;*/
+    background-color: #ffffff;
+    width: 562px;
+    height:  px;
+    left: 140px;
+    top: 98px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: -0.03em; 
+    padding: 14px 16px;
+}
+
+.cart {
+    opacity: 0.7 ;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 620px;
+    top: 105px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.heading{
+    position: absolute;
+    width: 674px;
+    height: 301px;
+    left: 151px;
+    top: 292px;
+    margin: 0;
+    padding: 0;
+}
+
+.mimage {
+    position: absolute;
+    width: 1020px;
+    height: 679px;
+    left: 522px;
+    top: 144px;
+    padding: 0;
+    margin: 0;
+}
+
+.user {
+    position: absolute;
+    width: 45px;
+    height: 44px;
+    left: 1321px;
+    top: 100px;
+    transition: transform .2s; /* Animation */
+}
+
+.user:hover {
+    transform: scale(1.1);
+}
+
+.search {
+    position: absolute;
+    width: 336px;
+    height: 31px;
+    left: 853px;
+    top: 99px;
+}
+
+.search input[type=text] {
+    /*float: right;
+    padding: 6px;*/
+    border: none;
+    /*margin-top: 8px;
+    margin-right: 16px;*/
+    position: absolute;
+
+width: 270px;
+height: 20px;
+left: 10px;
+top: 5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
+
+}
+
+.search button {
+    float: right;
+    padding: 0px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    /*background: #ddd;*/
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.search button:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#border{
+    position: absolute;
+    width: 336px;
+    height: 31px;
+    left: 853px;
+    top: 110px;
+    /*background: #FFFFFF;*/
+    box-shadow: inset 0px 4px 20px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.socials {
+    position: absolute;
+    width: 185px;
+    height: 63px;
+    left: 207px;
+    top: 659px;
+    transition: transform .2s;
+}
+
+.handle:hover {
+    transform: scale(1.1);
+}
+
+.cartegory {
+    position: absolute;
+    width: 1507px;
+    height: 174px;
+    left: 151px;
+    top: 793px;    
+}
+
+.next:hover {
+    opacity: 0.8;
+}
